@@ -1,0 +1,3 @@
+$ awk -f lab4.awk file1.tr>tcp1
+$ awk -f lab4.awk file2.tr>tcp2
+$ xgraph -x "time" -y "convalue" tcp1 tcp2
